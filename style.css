@@ -1,0 +1,60 @@
+:root{
+    --cores-letras: #fff;
+    --cor-fundo: rgba(193,22,136,1);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(0deg, rgba(193,22,136,1) 100%, rgba(255,102,204,1) 100%);
+    font-family: sans-serif;
+}
+
+main{
+    margin-top: 6rem;
+}
+h1{
+    text-align: center;
+    color: var(--cores-letras);
+}
+.container{
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    background-color: var(--cores-letras);
+    height: 100%;
+    width: 30rem;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 1px 5px 2px 0px rgba(0, 0, 0, 0.185);
+    text-align: left;
+    padding: 15px;
+}
+
+.conteudo-interno{
+    padding: 1rem;
+    max-width: 25rem;
+}
+
+input{
+    margin-top: 1rem;
+    outline: none;
+}
+
+label{
+    text-align: left;
+}
+
+#botao-contagem{
+    cursor: pointer;
+    color: var(--cores-letras);
+    background-color: var(--cor-fundo);
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+#botao-contagem:hover{
+    background-color: var(--cores-letras);
+    color: var(--cor-fundo);
+    border: 1px solid var(--cor-fundo)
+}
